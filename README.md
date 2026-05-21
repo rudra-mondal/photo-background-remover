@@ -1,8 +1,64 @@
+<div align="center">
+
 # Photo Background Remover
+
+**A modern desktop GUI for removing image backgrounds locally with Python, PyQt5, and rembg.**
+
+[![MIT License](https://img.shields.io/github/license/rudra-mondal/photo-background-remover?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyQt5](https://img.shields.io/badge/PyQt5-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://pypi.org/project/PyQt5/)
+[![rembg](https://img.shields.io/badge/rembg-AI%20Background%20Removal-FF6B35?style=for-the-badge)](https://pypi.org/project/rembg/)
+
+[![GitHub Repo Stars](https://img.shields.io/github/stars/rudra-mondal/photo-background-remover?style=flat-square&logo=github)](https://github.com/rudra-mondal/photo-background-remover/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/rudra-mondal/photo-background-remover?style=flat-square&logo=github)](https://github.com/rudra-mondal/photo-background-remover/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/rudra-mondal/photo-background-remover?style=flat-square&logo=github)](https://github.com/rudra-mondal/photo-background-remover/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rudra-mondal/photo-background-remover?style=flat-square&logo=github)](https://github.com/rudra-mondal/photo-background-remover/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/rudra-mondal/photo-background-remover?style=flat-square&logo=git)](https://github.com/rudra-mondal/photo-background-remover/commits)
+[![Repo Size](https://img.shields.io/github/repo-size/rudra-mondal/photo-background-remover?style=flat-square)](https://github.com/rudra-mondal/photo-background-remover)
+[![Top Language](https://img.shields.io/github/languages/top/rudra-mondal/photo-background-remover?style=flat-square)](https://github.com/rudra-mondal/photo-background-remover)
+
+[![Pillow](https://img.shields.io/badge/Pillow-Image%20Processing-2E8B57?style=flat-square)](https://pypi.org/project/pillow/)
+[![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-Inference-005CED?style=flat-square)](https://pypi.org/project/onnxruntime/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-555555?style=flat-square)](#requirements)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)](#contributing)
+[![Made by Rudra Mondal](https://img.shields.io/badge/Made%20by-Rudra%20Mondal-blueviolet?style=flat-square)](https://github.com/rudra-mondal)
+
+[Overview](#overview) |
+[Features](#features) |
+[Installation](#installation) |
+[Usage](#usage) |
+[Screenshot](#ui-screenshot) |
+[License](#license)
+
+</div>
 
 A desktop background-removal application built with Python, PyQt5, Pillow, and `rembg`. The app provides a clean graphical interface for opening an image, removing its background with AI-powered segmentation, previewing the before-and-after result side by side, and saving the processed output locally.
 
 Repository: [rudra-mondal/photo-background-remover](https://github.com/rudra-mondal/photo-background-remover.git)
+
+## At a Glance
+
+| Category | Details |
+| --- | --- |
+| App Type | Desktop GUI application |
+| Primary Use | Remove backgrounds from images locally |
+| Core Engine | `rembg` |
+| Interface | PyQt5 |
+| Input Formats | PNG, JPG, JPEG, BMP |
+| Output Formats | PNG, JPG, JPEG |
+| Best Output Format | PNG for transparency |
+| License | MIT |
+
+## Highlights
+
+| Capability | Description |
+| --- | --- |
+| Local processing | Remove image backgrounds without using a web uploader. |
+| Side-by-side preview | Compare the original and processed result in the same window. |
+| Drag-and-drop loading | Drop an image directly into the original preview panel. |
+| Detailed inspection | Zoom and pan both previews before saving. |
+| Edge tuning | Use alpha matting controls for complex subject edges. |
+| Simple export | Save the processed output from the GUI. |
 
 ## UI Screenshot
 
@@ -10,6 +66,8 @@ Repository: [rudra-mondal/photo-background-remover](https://github.com/rudra-mon
 
 ## Table of Contents
 
+- [At a Glance](#at-a-glance)
+- [Highlights](#highlights)
 - [Overview](#overview)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
