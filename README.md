@@ -34,7 +34,9 @@
 
 A desktop background-removal application built with Python, PyQt5, Pillow, and `rembg`. The app provides a clean graphical interface for opening an image, removing its background with AI-powered segmentation, previewing the before-and-after result side by side, and saving the processed output locally.
 
-Repository: [rudra-mondal/photo-background-remover](https://github.com/rudra-mondal/photo-background-remover.git)
+## UI Screenshot
+
+![Photo Background Remover UI](docs/Screenshot.png)
 
 ## At a Glance
 
@@ -59,10 +61,6 @@ Repository: [rudra-mondal/photo-background-remover](https://github.com/rudra-mon
 | Detailed inspection | Zoom and pan both previews before saving. |
 | Edge tuning | Use alpha matting controls for complex subject edges. |
 | Simple export | Save the processed output from the GUI. |
-
-## UI Screenshot
-
-![Photo Background Remover UI](docs/Screenshot.png)
 
 ## Table of Contents
 
